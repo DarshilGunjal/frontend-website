@@ -100,9 +100,16 @@ body {
     gap: 12px;
 }
 
+.nav-logo img {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+    mix-blend-mode: screen;
+}
+
 .nav-logo span {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     color: #ffffff;
 }
@@ -186,6 +193,15 @@ body {
     align-items: center;
 }
 
+.hero-logo {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+    mix-blend-mode: screen;
+    filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.9));
+}
+
 .hero h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: clamp(2.8rem, 6.5vw, 5.5rem);
@@ -235,6 +251,14 @@ body {
     align-items: center;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.section-logo {
+    height: 85px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+    mix-blend-mode: screen;
 }
 
 .about h2 {
@@ -416,6 +440,15 @@ footer {
     padding: 40px 20px;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-logo {
+    height: 65px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 16px;
+    mix-blend-mode: screen;
+    opacity: 0.9;
 }
 
 .footer-stripe {
