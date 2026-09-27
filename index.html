@@ -32,6 +32,8 @@
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#models">Models</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#pricing">Pricing</a>
             <button class="sound-btn" onclick="var v = document.getElementById('bgVideo'); v.muted = !v.muted; this.textContent = v.muted ? '🔇 Unmute' : '🔊 Sound On'; event.stopPropagation();">🔊 Sound</button>
         </div>
     </nav>
@@ -148,6 +150,134 @@
                 </p>
             </div>
 
+        </div>
+    </section>
+
+    <!-- 4. Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="m-stripe">
+            <span class="stripe-blue"></span>
+            <span class="stripe-navy"></span>
+            <span class="stripe-red"></span>
+        </div>
+
+        <h2>M MOTORSPORT GALLERY</h2>
+        <p class="section-subtitle">Track precision, raw power, and aggressive aerodynamic engineering captured.</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80" alt="M Performance Track Attack">
+                <div class="gallery-caption">
+                    <h4>RACE PEDIGREE</h4>
+                    <p>Track Tuned Dynamics</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80" alt="M Driver Cockpit">
+                <div class="gallery-caption">
+                    <h4>M COCKPIT</h4>
+                    <p>Carbon Fiber &amp; Alcantara</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1619682817481-e994891cd1f5?auto=format&fit=crop&w=800&q=80" alt="M Carbon Ceramic Brakes">
+                <div class="gallery-caption">
+                    <h4>M BRAKES</h4>
+                    <p>Carbon Ceramic Stopping Power</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=800&q=80" alt="M3 Aggressive Stance">
+                <div class="gallery-caption">
+                    <h4>THE KIDNEY GRILLE</h4>
+                    <p>Aerodynamic Cooling Architecture</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80" alt="BMW M5 In Motion">
+                <div class="gallery-caption">
+                    <h4>TWINPOWER TURBO</h4>
+                    <p>V8 Biturbo Acceleration</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=800&q=80" alt="BMW M8 Night Run">
+                <div class="gallery-caption">
+                    <h4>NIGHT DOMINANCE</h4>
+                    <p>BMW Laserlight Velocity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="m-stripe">
+            <span class="stripe-blue"></span>
+            <span class="stripe-navy"></span>
+            <span class="stripe-red"></span>
+        </div>
+
+        <h2>M LINEUP PRICING</h2>
+        <p class="section-subtitle">Choose your weapon. Built without compromise, priced for pure exhilaration.</p>
+
+        <div class="pricing-container">
+            <!-- Pricing 1: BMW M3 -->
+            <div class="pricing-card">
+                <div class="price-header">
+                    <h3>BMW M3</h3>
+                    <p class="price-sub">Competition Sedan</p>
+                    <div class="price-tag">$76,000<span>/ Starting MSRP</span></div>
+                </div>
+                <ul class="price-features">
+                    <li><strong>503 HP</strong> &bull; 3.0L TwinPower Turbo I6</li>
+                    <li><strong>0-60 mph:</strong> 3.4 seconds</li>
+                    <li>M xDrive All-Wheel Drive System</li>
+                    <li>Adaptive M Suspension &amp; M Differential</li>
+                    <li>Forged Lightweight M Alloy Wheels</li>
+                </ul>
+                <a href="#home" class="price-btn">INQUIRE M3</a>
+            </div>
+
+            <!-- Pricing 2: BMW M5 (Featured) -->
+            <div class="pricing-card featured-pricing">
+                <div class="popular-badge">MOST POPULAR</div>
+                <div class="price-header">
+                    <h3>BMW M5</h3>
+                    <p class="price-sub">Competition Super-Sedan</p>
+                    <div class="price-tag">$111,000<span>/ Starting MSRP</span></div>
+                </div>
+                <ul class="price-features">
+                    <li><strong>617 HP</strong> &bull; 4.4L TwinPower Turbo V8</li>
+                    <li><strong>0-60 mph:</strong> 3.1 seconds</li>
+                    <li>Intelligent M xDrive with 2WD Drift Mode</li>
+                    <li>8-Speed M Steptronic Transmission</li>
+                    <li>Harman Kardon Surround Sound System</li>
+                </ul>
+                <a href="#home" class="price-btn featured-btn">INQUIRE M5</a>
+            </div>
+
+            <!-- Pricing 3: BMW M8 -->
+            <div class="pricing-card">
+                <div class="price-header">
+                    <h3>BMW M8</h3>
+                    <p class="price-sub">Competition Gran Coupe</p>
+                    <div class="price-tag">$138,800<span>/ Starting MSRP</span></div>
+                </div>
+                <ul class="price-features">
+                    <li><strong>617 HP</strong> &bull; 4.4L TwinPower Turbo V8</li>
+                    <li><strong>0-60 mph:</strong> 3.0 seconds</li>
+                    <li>M Carbon Ceramic Brakes Available</li>
+                    <li>Full Merino Leather &amp; Carbon Roof</li>
+                    <li>Dynamic Damper Control &amp; Track Package</li>
+                </ul>
+                <a href="#home" class="price-btn">INQUIRE M8</a>
+            </div>
         </div>
     </section>
 
